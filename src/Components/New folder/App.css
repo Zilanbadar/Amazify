@@ -1,0 +1,40 @@
+.page-btn {
+  font-family: var(--font-primary);
+  font-weight: 400;
+  font-size: 14px;
+  display: inline-block;
+  padding: 12px 40px;
+  border-radius: 4px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: 0.3s;
+  color: #fff;
+  background: var(--color-primary);
+}
+.page-btn:hover {
+  background: #2cbc85;
+  color: white;
+}
+
+/* dropdown style */
+
+.ant-dropdown ul {
+  background: #161718 !important;
+  
+}
+.ant-dropdown-menu {
+  background-color: red;
+  width: 200px;
+}
+.ant-dropdown ul li span {
+    color: rgba(255, 255, 255, 0.5);
+}
+.ant-dropdown ul li a{
+      padding: 10px 20px;
+    font-size: 17px;
+    text-transform: none;
+    font-weight: 400;
+}
+.ant-dropdown ul li span:hover {
+color: #fff;
+}
